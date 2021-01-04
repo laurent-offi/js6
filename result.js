@@ -5,9 +5,9 @@ function showNumbers()
     	let numberOne = parseInt(document.form.num1.value);
         let numberTwo = parseFloat(document.form.num2.value);
 
-        result = (shoeSize % yearOfBirth);
+        result = (numberOne % numberTwo);
         result = result.toFixed(2);
-        
+
        		if (numberOne == "") {
         		alert("Veuillez remplir le premier champ.");
       		} else if(numberTwo == "") {
